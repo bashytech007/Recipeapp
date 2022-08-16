@@ -17,10 +17,10 @@ function Recipe() {
     console.log(detailData);
     };
     useEffect(()=>{
-      
+      fetchDetails();
      
     },[params.name]);
-     fetchDetails();
+     
   return (
     <DetailsWrapper>
       <div>
