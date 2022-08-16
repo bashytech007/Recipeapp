@@ -17,7 +17,7 @@ function Recipe() {
     console.log(detailData);
     };
     useEffect(()=>{
-      fetchDetails();
+      fetchDetails(params.name);
      
     },[params.name]);
      
